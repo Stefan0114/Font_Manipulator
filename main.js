@@ -19,6 +19,7 @@ function draw()
 {
     background('pink');
     document.getElementById("font_size").innerHTML = "Font size of the text = " + difference +"px";
+    textSize(difference);
   fill('red');
   stroke('red');
   text('Stefan', 50, 400);
